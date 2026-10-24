@@ -1,0 +1,65 @@
+{
+  "version": "stack-overflow-coding-2025-v1",
+  "source": "Stack Overflow Developer Survey 2025",
+  "sourceUrl": "https://survey.stackoverflow.co/2025/ai/",
+  "methodologyUrl": "https://survey.stackoverflow.co/2025/methodology/",
+  "license": "Open Database License (ODbL), attribution to Stack Overflow; factual summaries, no original artwork copied",
+  "observationPeriod": "29 May\u201323 June 2025",
+  "reviewedAt": "2026-10-23",
+  "limitations": "Self-selected survey recruited mainly through Stack Overflow. Question populations differ; rounded published summaries are not global developer market shares.",
+  "charts": [
+    {
+      "id": "adoption",
+      "title": "AI assistance is not the same as vibe coding",
+      "note": "Separate questions and response populations. These bars are not parts of one whole. Vibe coding means generating software from LLM prompts in professional work.",
+      "rows": [
+        {
+          "label": "Use or plan to use AI",
+          "value": 84,
+          "responses": 33662
+        },
+        {
+          "label": "Vibe coding not part of professional work",
+          "value": 77,
+          "responses": 26564,
+          "approximate": true
+        }
+      ]
+    },
+    {
+      "id": "trust",
+      "title": "More distrust than trust",
+      "note": "Same accuracy question; neutral and other responses omitted. Do not normalize these two answers to 100%.",
+      "rows": [
+        {
+          "label": "Distrust AI output accuracy",
+          "value": 46,
+          "responses": 33244
+        },
+        {
+          "label": "Trust AI output accuracy",
+          "value": 33,
+          "responses": 33244
+        }
+      ]
+    },
+    {
+      "id": "friction",
+      "title": "Almost right still needs work",
+      "note": "Multiple responses allowed. These percentages overlap; they must not be added. Perceptions are not measured debugging time.",
+      "rows": [
+        {
+          "label": "Solutions almost right, but not quite",
+          "value": 66,
+          "responses": 31476
+        },
+        {
+          "label": "Debugging AI code takes more time",
+          "value": 45,
+          "responses": 31476
+        }
+      ]
+    }
+  ],
+  "datasetVersion": "6f5235a1adc0d0440bbbea81d4d448a9b7d55764acf38a4a8575d6189a33d7dc"
+}

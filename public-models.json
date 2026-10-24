@@ -1,0 +1,7319 @@
+{
+  "version": 3,
+  "retrievedAt": "2026-10-23T16:40:04.127715+00:00",
+  "source": "https://openrouter.ai/api/v1/models",
+  "license": "OpenRouter public metadata; verify terms per release",
+  "sourceSha256": "7ad189640789611306233eff12aa9a34c80b07914d6fa3c21ecb6bf2bf1a1b28",
+  "models": [
+    {
+      "id": "anthropic/claude-fable-5",
+      "name": "Anthropic: Claude Fable 5",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 1e-05,
+      "outputPricePerToken": 5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1781007515,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-fable-5.1",
+      "name": "Anthropic: Claude Fable 5.1",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 1e-05,
+      "outputPricePerToken": 5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1788285838,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-fable-5.1:batch",
+      "name": "Anthropic: Claude Fable 5.1 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 2.5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1788285838,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-fable-5:batch",
+      "name": "Anthropic: Claude Fable 5 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 2.5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1781007515,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "name": "Anthropic: Claude Haiku 4.5",
+      "provider": "anthropic",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 64000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1760547638,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5:batch",
+      "name": "Anthropic: Claude Haiku 4.5 (batch)",
+      "provider": "anthropic",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 5e-07,
+      "outputPricePerToken": 2.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 64000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1760547638,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5",
+      "name": "Anthropic: Claude Haiku 5.5",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 5e-07,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1791397883,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-haiku-5.5:batch",
+      "name": "Anthropic: Claude Haiku 5.5 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 5e-08,
+      "outputPricePerToken": 2.5e-07,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1791397883,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-4.1",
+      "name": "Anthropic: Claude Opus 4.1",
+      "provider": "anthropic",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 1.5e-05,
+      "outputPricePerToken": 7.5e-05,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1754411591,
+      "knowledgeCutoff": "2025-01-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-4.1:batch",
+      "name": "Anthropic: Claude Opus 4.1 (batch)",
+      "provider": "anthropic",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 7.5e-06,
+      "outputPricePerToken": 3.75e-05,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1754411591,
+      "knowledgeCutoff": "2025-01-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-4.5",
+      "name": "Anthropic: Claude Opus 4.5",
+      "provider": "anthropic",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 2.5e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 64000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "verbosity"
+      ],
+      "created": 1764010580,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-4.5:batch",
+      "name": "Anthropic: Claude Opus 4.5 (batch)",
+      "provider": "anthropic",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1.25e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 64000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1764010580,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-4.6",
+      "name": "Anthropic: Claude Opus 4.6",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 2.5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p",
+        "verbosity"
+      ],
+      "created": 1770219050,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-4.6:batch",
+      "name": "Anthropic: Claude Opus 4.6 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1.25e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "verbosity"
+      ],
+      "created": 1770219050,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-4.7",
+      "name": "Anthropic: Claude Opus 4.7",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 2.5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1776351100,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-4.7:batch",
+      "name": "Anthropic: Claude Opus 4.7 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1.25e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1776351100,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-4.8",
+      "name": "Anthropic: Claude Opus 4.8",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 2.5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1779905091,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-4.8:batch",
+      "name": "Anthropic: Claude Opus 4.8 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1.25e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1779905091,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-5",
+      "name": "Anthropic: Claude Opus 5",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 2.5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1784912544,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-5.5",
+      "name": "Anthropic: Claude Opus 5.5",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 4e-06,
+      "outputPricePerToken": 2e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790094732,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-5.5:batch",
+      "name": "Anthropic: Claude Opus 5.5 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790094732,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-opus-5:batch",
+      "name": "Anthropic: Claude Opus 5 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1.25e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1784912544,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5",
+      "name": "Anthropic: Claude Sonnet 4.5",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 3e-06,
+      "outputPricePerToken": 1.5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 64000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1759161676,
+      "knowledgeCutoff": "2025-01-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.5:batch",
+      "name": "Anthropic: Claude Sonnet 4.5 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 1.5e-06,
+      "outputPricePerToken": 7.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 64000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1759161676,
+      "knowledgeCutoff": "2025-01-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6",
+      "name": "Anthropic: Claude Sonnet 4.6",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 3e-06,
+      "outputPricePerToken": 1.5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p",
+        "verbosity"
+      ],
+      "created": 1771342990,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-sonnet-4.6:batch",
+      "name": "Anthropic: Claude Sonnet 4.6 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 1.5e-06,
+      "outputPricePerToken": 7.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p",
+        "verbosity"
+      ],
+      "created": 1771342990,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5",
+      "name": "Anthropic: Claude Sonnet 5",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1782843083,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5",
+      "name": "Anthropic: Claude Sonnet 5.5",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790618686,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5.5:batch",
+      "name": "Anthropic: Claude Sonnet 5.5 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790618686,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "anthropic/claude-sonnet-5:batch",
+      "name": "Anthropic: Claude Sonnet 5 (batch)",
+      "provider": "anthropic",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1782843083,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-chat",
+      "name": "DeepSeek: DeepSeek V3",
+      "provider": "deepseek",
+      "contextLength": 163840.0,
+      "inputPricePerToken": 2.574e-07,
+      "outputPricePerToken": 1.0287e-06,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16000.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1735241320,
+      "knowledgeCutoff": "2024-07-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "name": "DeepSeek: DeepSeek V3 0324",
+      "provider": "deepseek",
+      "contextLength": 163840.0,
+      "inputPricePerToken": 2.9e-07,
+      "outputPricePerToken": 1.14e-06,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 115200.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logprobs",
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1742824755,
+      "knowledgeCutoff": "2024-07-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3.1",
+      "name": "DeepSeek: DeepSeek V3.1",
+      "provider": "deepseek",
+      "contextLength": 163840.0,
+      "inputPricePerToken": 2.5e-07,
+      "outputPricePerToken": 9.5e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1755779628,
+      "knowledgeCutoff": "2025-03-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-r1-0528",
+      "name": "DeepSeek: R1 0528",
+      "provider": "deepseek",
+      "contextLength": 163840.0,
+      "inputPricePerToken": 5e-07,
+      "outputPricePerToken": 2.15e-06,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1748455170,
+      "knowledgeCutoff": "2025-03-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v3.1-terminus",
+      "name": "DeepSeek: DeepSeek V3.1 Terminus",
+      "provider": "deepseek",
+      "contextLength": 163840.0,
+      "inputPricePerToken": 2.7e-07,
+      "outputPricePerToken": 1e-06,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 147456.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1758548275,
+      "knowledgeCutoff": "2025-03-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v3.2",
+      "name": "DeepSeek: DeepSeek V3.2",
+      "provider": "deepseek",
+      "contextLength": 163840.0,
+      "inputPricePerToken": 2.8e-07,
+      "outputPricePerToken": 4.2e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1764594642,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v3.2-exp",
+      "name": "DeepSeek: DeepSeek V3.2 Exp",
+      "provider": "deepseek",
+      "contextLength": 163840.0,
+      "inputPricePerToken": 2.7e-07,
+      "outputPricePerToken": 4.1e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 147456.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1759150481,
+      "knowledgeCutoff": "2025-07-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek: DeepSeek V4 Flash 0423",
+      "provider": "deepseek",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 9.1e-08,
+      "outputPricePerToken": 1.82e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943717.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_a",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1777000666,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-0731",
+      "name": "DeepSeek: DeepSeek V4 Flash 0731",
+      "provider": "deepseek",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 4.444e-08,
+      "outputPricePerToken": 1.3332e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 131072.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_a",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1785478908,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "provider": "deepseek",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 2.156e-07,
+      "outputPricePerToken": 6.468e-07,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 262144.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1787311563,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
+      "provider": "deepseek",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 8.7522e-07,
+      "outputPricePerToken": 1.75044e-06,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 384000.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1777000679,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v4-pro-0813",
+      "name": "DeepSeek: DeepSeek V4 Pro 0813",
+      "provider": "deepseek",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 6.6e-07,
+      "outputPricePerToken": 1.98e-06,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 393216.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1786549364,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek: DeepSeek V4.1 Flash",
+      "provider": "deepseek",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 3e-07,
+      "outputPricePerToken": 1.2e-06,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943718.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1789021285,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "provider": "deepseek",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1.5e-07,
+      "outputPricePerToken": 6e-07,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 393216.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "min_p",
+        "parallel_tool_calls",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1792225624,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "deepseek/deepseek-v4.1-flash:batch",
+      "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+      "provider": "deepseek",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 5e-08,
+      "outputPricePerToken": 1.5e-07,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 384000.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1789021285,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "name": "Google: Gemini 2.5 Flash",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 3e-07,
+      "outputPricePerToken": 2.5e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text",
+        "audio",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65535.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1750172488,
+      "knowledgeCutoff": "2025-01-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-2.5-flash-image",
+      "name": "Google: Nano Banana (Gemini 2.5 Flash Image)",
+      "provider": "google",
+      "contextLength": 32768.0,
+      "inputPricePerToken": 3e-07,
+      "outputPricePerToken": 2.5e-06,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "maxOutputTokens": 8192.0,
+      "supportedParameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "top_p"
+      ],
+      "created": 1759870431,
+      "knowledgeCutoff": "2025-01-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-2.5-flash-lite",
+      "name": "Google: Gemini 2.5 Flash Lite",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 4e-07,
+      "modalities": [
+        "text",
+        "image",
+        "file",
+        "audio",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65535.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1753200276,
+      "knowledgeCutoff": "2025-01-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-2.5-pro",
+      "name": "Google: Gemini 2.5 Pro",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file",
+        "audio",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1750169544,
+      "knowledgeCutoff": "2025-01-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-2.5-pro-preview",
+      "name": "Google: Gemini 2.5 Pro Preview 06-05",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1749137257,
+      "knowledgeCutoff": "2025-01-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3-flash-preview",
+      "name": "Google: Gemini 3 Flash Preview",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 5e-07,
+      "outputPricePerToken": 3e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file",
+        "audio",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1765987078,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3-flash-preview:batch",
+      "name": "Google: Gemini 3 Flash Preview (batch)",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 2.5e-07,
+      "outputPricePerToken": 1.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file",
+        "audio",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1765987078,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3-pro-image",
+      "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
+      "provider": "google",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1.2e-05,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1781754054,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3-pro-image-preview",
+      "name": "Google: Nano Banana Pro (Gemini 3 Pro Image Preview)",
+      "provider": "google",
+      "contextLength": 65536.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1.2e-05,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "top_p"
+      ],
+      "created": 1763653797,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.1-flash-image",
+      "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "provider": "google",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 5e-07,
+      "outputPricePerToken": 3e-06,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "top_p"
+      ],
+      "created": 1781754065,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.1-flash-image-preview",
+      "name": "Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview)",
+      "provider": "google",
+      "contextLength": 65536.0,
+      "inputPricePerToken": 5e-07,
+      "outputPricePerToken": 3e-06,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "maxOutputTokens": 58982.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "top_p"
+      ],
+      "created": 1772119558,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite",
+      "name": "Google: Gemini 3.1 Flash Lite",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 2.5e-07,
+      "outputPricePerToken": 1.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1778168828,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-image",
+      "name": "Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+      "provider": "google",
+      "contextLength": 65536.0,
+      "inputPricePerToken": 2.5e-07,
+      "outputPricePerToken": 1.5e-06,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "maxOutputTokens": 58982.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "temperature",
+        "top_p"
+      ],
+      "created": 1782837225,
+      "knowledgeCutoff": "2025-01-01",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "name": "Google: Gemini 3.1 Flash Lite Preview",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 2.5e-07,
+      "outputPricePerToken": 1.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1772512673,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.1-flash-lite:batch",
+      "name": "Google: Gemini 3.1 Flash Lite (batch)",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1.25e-07,
+      "outputPricePerToken": 7.5e-07,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1778168828,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview",
+      "name": "Google: Gemini 3.1 Pro Preview",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1.2e-05,
+      "modalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1771509627,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1.2e-05,
+      "modalities": [
+        "text",
+        "audio",
+        "image",
+        "video",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1772045923,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.1-pro-preview:batch",
+      "name": "Google: Gemini 3.1 Pro Preview (batch)",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 6e-06,
+      "modalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1771509627,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.5-flash",
+      "name": "Google: Gemini 3.5 Flash",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1.5e-06,
+      "outputPricePerToken": 9e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1779193800,
+      "knowledgeCutoff": "2025-01-01",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "name": "Google: Gemini 3.5 Flash Lite",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 3e-07,
+      "outputPricePerToken": 2.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1784646726,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite:batch",
+      "name": "Google: Gemini 3.5 Flash Lite (batch)",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1.5e-07,
+      "outputPricePerToken": 1.25e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1784646726,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.5-flash:batch",
+      "name": "Google: Gemini 3.5 Flash (batch)",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 7.5e-07,
+      "outputPricePerToken": 4.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1779193800,
+      "knowledgeCutoff": "2025-01-01",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "name": "Google: Gemini 3.6 Flash",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 7.5e-07,
+      "outputPricePerToken": 3.75e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1784646733,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.6-flash:batch",
+      "name": "Google: Gemini 3.6 Flash (batch)",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 3.75e-07,
+      "outputPricePerToken": 1.875e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1784646733,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.7-flash",
+      "name": "Google: Gemini 3.7 Flash",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 7.5e-07,
+      "outputPricePerToken": 3.75e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1786640581,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.7-flash:batch",
+      "name": "Google: Gemini 3.7 Flash (batch)",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 3.75e-07,
+      "outputPricePerToken": 1.875e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1786640581,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.8-flash",
+      "name": "Google: Gemini 3.8 Flash",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 8.25e-07,
+      "outputPricePerToken": 4.125e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1788362056,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-3.8-flash:batch",
+      "name": "Google: Gemini 3.8 Flash (batch)",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 3.75e-07,
+      "outputPricePerToken": 1.875e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1788362056,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-4-argon",
+      "name": "Google: Gemini 4 Argon",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943718.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1791907477,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-4-argon:batch",
+      "name": "Google: Gemini 4 Argon (batch)",
+      "provider": "google",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "audio",
+        "file",
+        "image",
+        "text",
+        "video"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943718.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1791907477,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "google/gemini-nano-banana-2.1",
+      "name": "Google: Nano Banana 2.1",
+      "provider": "google",
+      "contextLength": 65536.0,
+      "inputPricePerToken": 1.5e-06,
+      "outputPricePerToken": 7.5e-06,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "maxOutputTokens": 58982.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1791300825,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta-llama/llama-3.1-70b-instruct",
+      "name": "Meta: Llama 3.1 70B Instruct",
+      "provider": "meta-llama",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 4e-07,
+      "outputPricePerToken": 4e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1721692800,
+      "knowledgeCutoff": "2023-12-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "name": "Meta: Llama 3.1 8B Instruct",
+      "provider": "meta-llama",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 5e-08,
+      "outputPricePerToken": 8e-08,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 117964.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1721692800,
+      "knowledgeCutoff": "2023-12-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta-llama/llama-3.2-1b-instruct",
+      "name": "Meta: Llama 3.2 1B Instruct",
+      "provider": "meta-llama",
+      "contextLength": 60000.0,
+      "inputPricePerToken": 2.7e-08,
+      "outputPricePerToken": 2.01e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 54000.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1727222400,
+      "knowledgeCutoff": "2023-12-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "name": "Meta: Llama 3.2 3B Instruct",
+      "provider": "meta-llama",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 5.09e-08,
+      "outputPricePerToken": 3.35e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 72000.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1727222400,
+      "knowledgeCutoff": "2023-12-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "provider": "meta-llama",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 3.2e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1733506137,
+      "knowledgeCutoff": "2023-12-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta-llama/llama-4-maverick",
+      "name": "Meta: Llama 4 Maverick",
+      "provider": "meta-llama",
+      "contextLength": 524288.0,
+      "inputPricePerToken": 1.875e-07,
+      "outputPricePerToken": 6.525e-07,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1743881822,
+      "knowledgeCutoff": "2024-08-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta-llama/llama-4-scout",
+      "name": "Meta: Llama 4 Scout",
+      "provider": "meta-llama",
+      "contextLength": 1310720.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 3e-07,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1743881519,
+      "knowledgeCutoff": "2024-08-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta-llama/llama-guard-4-12b",
+      "name": "Meta: Llama Guard 4 12B",
+      "provider": "meta-llama",
+      "contextLength": 163840.0,
+      "inputPricePerToken": 1.8e-07,
+      "outputPricePerToken": 1.8e-07,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1745975193,
+      "knowledgeCutoff": "2024-08-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta/muse-glimmer-30b",
+      "name": "Meta: Muse Glimmer 30B",
+      "provider": "meta",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 3e-07,
+      "outputPricePerToken": 1.2e-06,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1786302394,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta/muse-spark-1.1",
+      "name": "Meta: Muse Spark 1.1",
+      "provider": "meta",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 4.25e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943718.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1784215741,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta/muse-spark-1.2",
+      "name": "Meta: Muse Spark 1.2",
+      "provider": "meta",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 4.25e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943718.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1785959287,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta/muse-spark-1.2-contributor",
+      "name": "Meta: Muse Spark 1.2 Contributor",
+      "provider": "meta",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 2e-07,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943718.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1787336476,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta/muse-spark-1.3",
+      "name": "Meta: Muse Spark 1.3",
+      "provider": "meta",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 4.25e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943718.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1788378359,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "name": "Meta: Muse Spark 1.3 Contributor",
+      "provider": "meta",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 2e-07,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943718.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1788381519,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta/muse-spark-open",
+      "name": "Meta: Muse Spark Open",
+      "provider": "meta",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 4.25e-06,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943718.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1792087069,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "meta/muse-wonder",
+      "name": "Meta: Muse Wonder",
+      "provider": "meta",
+      "contextLength": 1048576.0,
+      "inputPricePerToken": 4e-06,
+      "outputPricePerToken": 2e-05,
+      "modalities": [
+        "text",
+        "image",
+        "video",
+        "file",
+        "audio"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 943718.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1791807945,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo",
+      "name": "OpenAI: GPT-3.5 Turbo",
+      "provider": "openai",
+      "contextLength": 16385.0,
+      "inputPricePerToken": 5e-07,
+      "outputPricePerToken": 1.5e-06,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 4096.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1685232000,
+      "knowledgeCutoff": "2021-09-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-0613",
+      "name": "OpenAI: GPT-3.5 Turbo (older v0613)",
+      "provider": "openai",
+      "contextLength": 4095.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 2e-06,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 3685.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1706140800,
+      "knowledgeCutoff": "2021-09-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-16k",
+      "name": "OpenAI: GPT-3.5 Turbo 16k",
+      "provider": "openai",
+      "contextLength": 16385.0,
+      "inputPricePerToken": 3e-06,
+      "outputPricePerToken": 4e-06,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 4096.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1693180800,
+      "knowledgeCutoff": "2021-09-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo-instruct",
+      "name": "OpenAI: GPT-3.5 Turbo Instruct",
+      "provider": "openai",
+      "contextLength": 4095.0,
+      "inputPricePerToken": 1.5e-06,
+      "outputPricePerToken": 2e-06,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 3685.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1695859200,
+      "knowledgeCutoff": "2021-09-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-3.5-turbo:batch",
+      "name": "OpenAI: GPT-3.5 Turbo (batch)",
+      "provider": "openai",
+      "contextLength": 16385.0,
+      "inputPricePerToken": 2.5e-07,
+      "outputPricePerToken": 7.5e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 4096.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1685232000,
+      "knowledgeCutoff": "2021-09-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4",
+      "name": "OpenAI: GPT-4",
+      "provider": "openai",
+      "contextLength": 8191.0,
+      "inputPricePerToken": 3e-05,
+      "outputPricePerToken": 6e-05,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 4096.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1685232000,
+      "knowledgeCutoff": "2021-09-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4-turbo",
+      "name": "OpenAI: GPT-4 Turbo",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 1e-05,
+      "outputPricePerToken": 3e-05,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 4096.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1712620800,
+      "knowledgeCutoff": "2023-12-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4-turbo:batch",
+      "name": "OpenAI: GPT-4 Turbo (batch)",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 1.5e-05,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 4096.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1712620800,
+      "knowledgeCutoff": "2023-12-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4.1",
+      "name": "OpenAI: GPT-4.1",
+      "provider": "openai",
+      "contextLength": 1047576.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 8e-06,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "max_completion_tokens",
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1744651385,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4.1-mini",
+      "name": "OpenAI: GPT-4.1 Mini",
+      "provider": "openai",
+      "contextLength": 1047576.0,
+      "inputPricePerToken": 4e-07,
+      "outputPricePerToken": 1.6e-06,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "max_completion_tokens",
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1744651381,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4.1-mini:batch",
+      "name": "OpenAI: GPT-4.1 Mini (batch)",
+      "provider": "openai",
+      "contextLength": 1047576.0,
+      "inputPricePerToken": 2e-07,
+      "outputPricePerToken": 8e-07,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1744651381,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4.1-nano",
+      "name": "OpenAI: GPT-4.1 Nano",
+      "provider": "openai",
+      "contextLength": 1047576.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 4e-07,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "max_completion_tokens",
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1744651369,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4.1-nano:batch",
+      "name": "OpenAI: GPT-4.1 Nano (batch)",
+      "provider": "openai",
+      "contextLength": 1047576.0,
+      "inputPricePerToken": 5e-08,
+      "outputPricePerToken": 2e-07,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1744651369,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4.1:batch",
+      "name": "OpenAI: GPT-4.1 (batch)",
+      "provider": "openai",
+      "contextLength": 1047576.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 4e-06,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1744651385,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4o",
+      "name": "OpenAI: GPT-4o",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "created": 1715558400,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4o-2024-05-13",
+      "name": "OpenAI: GPT-4o (2024-05-13)",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 1.5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 4096.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "created": 1715558400,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4o-2024-08-06",
+      "name": "OpenAI: GPT-4o (2024-08-06)",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "created": 1722902400,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4o-2024-11-20",
+      "name": "OpenAI: GPT-4o (2024-11-20)",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "created": 1732127594,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4o-mini",
+      "name": "OpenAI: GPT-4o-mini",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 1.5e-07,
+      "outputPricePerToken": 6e-07,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_completion_tokens",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "created": 1721260800,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4o-mini-2024-07-18",
+      "name": "OpenAI: GPT-4o-mini (2024-07-18)",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 1.5e-07,
+      "outputPricePerToken": 6e-07,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "created": 1721260800,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4o-mini:batch",
+      "name": "OpenAI: GPT-4o-mini (batch)",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 7.5e-08,
+      "outputPricePerToken": 3e-07,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "created": 1721260800,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-4o:batch",
+      "name": "OpenAI: GPT-4o (batch)",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "prediction",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p",
+        "web_search_options"
+      ],
+      "created": 1715558400,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5",
+      "name": "OpenAI: GPT-5",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1754587413,
+      "knowledgeCutoff": "2024-09-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5-image",
+      "name": "OpenAI: GPT-5 Image",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1e-05,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "top_logprobs",
+        "top_p",
+        "verbosity"
+      ],
+      "created": 1760447986,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5-image-mini",
+      "name": "OpenAI: GPT-5 Image Mini",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 2e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "top_logprobs",
+        "top_p",
+        "verbosity"
+      ],
+      "created": 1760624583,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5-mini",
+      "name": "OpenAI: GPT-5 Mini",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 2.5e-07,
+      "outputPricePerToken": 2e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1754587407,
+      "knowledgeCutoff": "2024-05-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5-mini:batch",
+      "name": "OpenAI: GPT-5 Mini (batch)",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1.25e-07,
+      "outputPricePerToken": 1e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1754587407,
+      "knowledgeCutoff": "2024-05-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5-nano",
+      "name": "OpenAI: GPT-5 Nano",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 5e-08,
+      "outputPricePerToken": 4e-07,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1754587402,
+      "knowledgeCutoff": "2024-05-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5-nano:batch",
+      "name": "OpenAI: GPT-5 Nano (batch)",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 2.5e-08,
+      "outputPricePerToken": 2e-07,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1754587402,
+      "knowledgeCutoff": "2024-05-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5-pro",
+      "name": "OpenAI: GPT-5 Pro",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1.5e-05,
+      "outputPricePerToken": 0.00012,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1759776663,
+      "knowledgeCutoff": "2024-09-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5-pro:batch",
+      "name": "OpenAI: GPT-5 Pro (batch)",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 7.5e-06,
+      "outputPricePerToken": 6e-05,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1759776663,
+      "knowledgeCutoff": "2024-09-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.1",
+      "name": "OpenAI: GPT-5.1",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1763060305,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.1-codex",
+      "name": "OpenAI: GPT-5.1-Codex",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1763060298,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.1-codex-max",
+      "name": "OpenAI: GPT-5.1-Codex-Max",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1764878934,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.1-codex-mini",
+      "name": "OpenAI: GPT-5.1-Codex-Mini",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 2.5e-07,
+      "outputPricePerToken": 2e-06,
+      "modalities": [
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1763057820,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.1:batch",
+      "name": "OpenAI: GPT-5.1 (batch)",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 6.25e-07,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1763060305,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.2",
+      "name": "OpenAI: GPT-5.2",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1.75e-06,
+      "outputPricePerToken": 1.4e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1765389775,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.2-chat",
+      "name": "OpenAI: GPT-5.2 Chat",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 1.75e-06,
+      "outputPricePerToken": 1.4e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32000.0,
+      "supportedParameters": [
+        "max_completion_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1765389783,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.2-codex",
+      "name": "OpenAI: GPT-5.2-Codex",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1.75e-06,
+      "outputPricePerToken": 1.4e-05,
+      "modalities": [
+        "text",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1768409315,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.2-pro",
+      "name": "OpenAI: GPT-5.2 Pro",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 2.1e-05,
+      "outputPricePerToken": 0.000168,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1765389780,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.2-pro:batch",
+      "name": "OpenAI: GPT-5.2 Pro (batch)",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1.05e-05,
+      "outputPricePerToken": 8.4e-05,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1765389780,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.2:batch",
+      "name": "OpenAI: GPT-5.2 (batch)",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 8.75e-07,
+      "outputPricePerToken": 7e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1765389775,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.3-codex",
+      "name": "OpenAI: GPT-5.3-Codex",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1.75e-06,
+      "outputPricePerToken": 1.4e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1771959164,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.4",
+      "name": "OpenAI: GPT-5.4",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1.5e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1772734352,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.4-image-2",
+      "name": "OpenAI: GPT-5.4 Image 2",
+      "provider": "openai",
+      "contextLength": 272000.0,
+      "inputPricePerToken": 8e-06,
+      "outputPricePerToken": 1.5e-05,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "image",
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "top_logprobs",
+        "verbosity"
+      ],
+      "created": 1776797528,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.4-mini",
+      "name": "OpenAI: GPT-5.4 Mini",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 7.5e-07,
+      "outputPricePerToken": 4.5e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1773748178,
+      "knowledgeCutoff": "2025-08-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.4-mini:batch",
+      "name": "OpenAI: GPT-5.4 Mini (batch)",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 3.75e-07,
+      "outputPricePerToken": 2.25e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1773748178,
+      "knowledgeCutoff": "2025-08-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.4-nano",
+      "name": "OpenAI: GPT-5.4 Nano",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 2e-07,
+      "outputPricePerToken": 1.25e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1773748187,
+      "knowledgeCutoff": "2025-08-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.4-nano:batch",
+      "name": "OpenAI: GPT-5.4 Nano (batch)",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 6.25e-07,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1773748187,
+      "knowledgeCutoff": "2025-08-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.4-pro",
+      "name": "OpenAI: GPT-5.4 Pro",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 3e-05,
+      "outputPricePerToken": 0.00018,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1772734366,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.4-pro:batch",
+      "name": "OpenAI: GPT-5.4 Pro (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1.5e-05,
+      "outputPricePerToken": 9e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1772734366,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.4:batch",
+      "name": "OpenAI: GPT-5.4 (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 7.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1772734352,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.5",
+      "name": "OpenAI: GPT-5.5",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 3e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1777051893,
+      "knowledgeCutoff": "2025-12-01",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.5-pro",
+      "name": "OpenAI: GPT-5.5 Pro",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 3e-05,
+      "outputPricePerToken": 0.00018,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1777051896,
+      "knowledgeCutoff": "2025-12-01",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.5-pro:batch",
+      "name": "OpenAI: GPT-5.5 Pro (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1.5e-05,
+      "outputPricePerToken": 9e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1777051896,
+      "knowledgeCutoff": "2025-12-01",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.5:batch",
+      "name": "OpenAI: GPT-5.5 (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1.5e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1777051893,
+      "knowledgeCutoff": "2025-12-01",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-luna",
+      "name": "OpenAI: GPT-5.6 Luna",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2e-07,
+      "outputPricePerToken": 1.2e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590864,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro",
+      "name": "OpenAI: GPT-5.6 Luna Pro",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2e-07,
+      "outputPricePerToken": 1.2e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590867,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-luna-pro:batch",
+      "name": "OpenAI: GPT-5.6 Luna Pro (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 6e-07,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590867,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-luna:batch",
+      "name": "OpenAI: GPT-5.6 Luna (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 6e-07,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590864,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-sol",
+      "name": "OpenAI: GPT-5.6 Sol",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 4e-06,
+      "outputPricePerToken": 2e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590850,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "name": "OpenAI: GPT-5.6 Sol Pro",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 4e-06,
+      "outputPricePerToken": 2e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590854,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro:batch",
+      "name": "OpenAI: GPT-5.6 Sol Pro (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590854,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-sol:batch",
+      "name": "OpenAI: GPT-5.6 Sol (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590850,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-terra",
+      "name": "OpenAI: GPT-5.6 Terra",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1.2e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590857,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "name": "OpenAI: GPT-5.6 Terra Pro",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1.2e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590861,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro:batch",
+      "name": "OpenAI: GPT-5.6 Terra Pro (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 6e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590861,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5.6-terra:batch",
+      "name": "OpenAI: GPT-5.6 Terra (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 6e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1783590857,
+      "knowledgeCutoff": "2026-02-16",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-5:batch",
+      "name": "OpenAI: GPT-5 (batch)",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 6.25e-07,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1754587413,
+      "knowledgeCutoff": "2024-09-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-astra",
+      "name": "OpenAI: GPT-6 Astra",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-05,
+      "outputPricePerToken": 5e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1788552838,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-astra-pro",
+      "name": "OpenAI: GPT-6 Astra Pro",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-05,
+      "outputPricePerToken": 5e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1788552835,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-astra-pro:batch",
+      "name": "OpenAI: GPT-6 Astra Pro (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 2.5e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1788552835,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-astra:batch",
+      "name": "OpenAI: GPT-6 Astra (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 2.5e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1788552838,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-luna",
+      "name": "OpenAI: GPT-6 Luna",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 5e-07,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790100786,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-luna-pro",
+      "name": "OpenAI: GPT-6 Luna Pro",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-07,
+      "outputPricePerToken": 5e-07,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790100791,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-luna-pro:batch",
+      "name": "OpenAI: GPT-6 Luna Pro (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 5e-08,
+      "outputPricePerToken": 2.5e-07,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790100791,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-luna:batch",
+      "name": "OpenAI: GPT-6 Luna (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 5e-08,
+      "outputPricePerToken": 2.5e-07,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790100786,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-sol",
+      "name": "OpenAI: GPT-6 Sol",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790100775,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-sol-pro",
+      "name": "OpenAI: GPT-6 Sol Pro",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790100781,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-sol-pro:batch",
+      "name": "OpenAI: GPT-6 Sol Pro (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790100781,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6-sol:batch",
+      "name": "OpenAI: GPT-6 Sol (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790100775,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6.1-sol",
+      "name": "OpenAI: GPT-6.1 Sol",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790702882,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro",
+      "name": "OpenAI: GPT-6.1 Sol Pro",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790702886,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6.1-sol-pro:batch",
+      "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790702886,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-6.1-sol:batch",
+      "name": "OpenAI: GPT-6.1 Sol (batch)",
+      "provider": "openai",
+      "contextLength": 1050000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 5e-06,
+      "modalities": [
+        "file",
+        "image",
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "verbosity"
+      ],
+      "created": 1790702882,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-audio",
+      "name": "OpenAI: GPT Audio",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 2.5e-06,
+      "outputPricePerToken": 1e-05,
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "outputModalities": [
+        "text",
+        "audio"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1768862569,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-audio-mini",
+      "name": "OpenAI: GPT Audio Mini",
+      "provider": "openai",
+      "contextLength": 128000.0,
+      "inputPricePerToken": 6e-07,
+      "outputPricePerToken": 2.4e-06,
+      "modalities": [
+        "text",
+        "audio"
+      ],
+      "outputModalities": [
+        "text",
+        "audio"
+      ],
+      "maxOutputTokens": 16384.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1768859419,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-chat-latest",
+      "name": "OpenAI: GPT Chat Latest",
+      "provider": "openai",
+      "contextLength": 400000.0,
+      "inputPricePerToken": 5e-06,
+      "outputPricePerToken": 3e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 128000.0,
+      "supportedParameters": [
+        "max_tokens",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1778000212,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "provider": "openai",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 1.5e-07,
+      "outputPricePerToken": 6e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_a",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1754414231,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-oss-120b:batch",
+      "name": "OpenAI: gpt-oss-120b (batch)",
+      "provider": "openai",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 2.96e-08,
+      "outputPricePerToken": 1.36e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 117964.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1754414231,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "OpenAI: gpt-oss-20b",
+      "provider": "openai",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 1.8e-08,
+      "outputPricePerToken": 9e-08,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 32768.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1754414229,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-oss-20b:batch",
+      "name": "OpenAI: gpt-oss-20b (batch)",
+      "provider": "openai",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 2.4e-08,
+      "outputPricePerToken": 1.12e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 117964.0,
+      "supportedParameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "created": 1754414229,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/gpt-oss-safeguard-20b",
+      "name": "OpenAI: gpt-oss-safeguard-20b",
+      "provider": "openai",
+      "contextLength": 131072.0,
+      "inputPricePerToken": 7.5e-08,
+      "outputPricePerToken": 3e-07,
+      "modalities": [
+        "text"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 65536.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "created": 1761752836,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o1",
+      "name": "OpenAI: o1",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 1.5e-05,
+      "outputPricePerToken": 6e-05,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1734459999,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o1-pro",
+      "name": "OpenAI: o1-pro",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 0.00015,
+      "outputPricePerToken": 0.0006,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs"
+      ],
+      "created": 1742423211,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o3",
+      "name": "OpenAI: o3",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 8e-06,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1744823457,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o3-mini",
+      "name": "OpenAI: o3 Mini",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 1.1e-06,
+      "outputPricePerToken": 4.4e-06,
+      "modalities": [
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1738351721,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o3-mini-high",
+      "name": "OpenAI: o3 Mini High",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 1.1e-06,
+      "outputPricePerToken": 4.4e-06,
+      "modalities": [
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1739372611,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o3-mini:batch",
+      "name": "OpenAI: o3 Mini (batch)",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 5.5e-07,
+      "outputPricePerToken": 2.2e-06,
+      "modalities": [
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1738351721,
+      "knowledgeCutoff": "2023-10-31",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o3-pro",
+      "name": "OpenAI: o3 Pro",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 2e-05,
+      "outputPricePerToken": 8e-05,
+      "modalities": [
+        "text",
+        "file",
+        "image"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1749598352,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o3:batch",
+      "name": "OpenAI: o3 (batch)",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 4e-06,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1744823457,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o4-mini",
+      "name": "OpenAI: o4 Mini",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 1.1e-06,
+      "outputPricePerToken": 4.4e-06,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1744820942,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o4-mini-high",
+      "name": "OpenAI: o4 Mini High",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 1.1e-06,
+      "outputPricePerToken": 4.4e-06,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1744824212,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "openai/o4-mini:batch",
+      "name": "OpenAI: o4 Mini (batch)",
+      "provider": "openai",
+      "contextLength": 200000.0,
+      "inputPricePerToken": 5.5e-07,
+      "outputPricePerToken": 2.2e-06,
+      "modalities": [
+        "image",
+        "text",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 100000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "created": 1744820942,
+      "knowledgeCutoff": "2024-06-30",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "x-ai/grok-4.20",
+      "name": "SpaceXAI: Grok 4.20",
+      "provider": "x-ai",
+      "contextLength": 2000000.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 2.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 1800000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1774979019,
+      "knowledgeCutoff": "2025-09-01",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "x-ai/grok-4.20-multi-agent",
+      "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+      "provider": "x-ai",
+      "contextLength": 2000000.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 2.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 1800000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1774979158,
+      "knowledgeCutoff": "2025-09-01",
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "x-ai/grok-4.3",
+      "name": "SpaceXAI: Grok 4.3",
+      "provider": "x-ai",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 1.25e-06,
+      "outputPricePerToken": 2.5e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 900000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1777591821,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "x-ai/grok-4.3:batch",
+      "name": "SpaceXAI: Grok 4.3 (batch)",
+      "provider": "x-ai",
+      "contextLength": 1000000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 2e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 900000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1777591821,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "x-ai/grok-4.5",
+      "name": "SpaceXAI: Grok 4.5",
+      "provider": "x-ai",
+      "contextLength": 500000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 6e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 450000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1783523154,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "x-ai/grok-4.6",
+      "name": "SpaceXAI: Grok 4.6",
+      "provider": "x-ai",
+      "contextLength": 500000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 6e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 450000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1786548957,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "x-ai/grok-4.7",
+      "name": "SpaceXAI: Grok 4.7",
+      "provider": "x-ai",
+      "contextLength": 500000.0,
+      "inputPricePerToken": 2e-06,
+      "outputPricePerToken": 6e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 450000.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1790007541,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "x-ai/grok-build-0.1",
+      "name": "SpaceXAI: Grok Build 0.1",
+      "provider": "x-ai",
+      "contextLength": 256000.0,
+      "inputPricePerToken": 1e-06,
+      "outputPricePerToken": 2e-06,
+      "modalities": [
+        "text",
+        "image",
+        "file"
+      ],
+      "outputModalities": [
+        "text"
+      ],
+      "maxOutputTokens": 230400.0,
+      "supportedParameters": [
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_logprobs",
+        "top_p"
+      ],
+      "created": 1779298123,
+      "knowledgeCutoff": null,
+      "expirationDate": null,
+      "source": "OpenRouter Models API",
+      "sourceUrl": "https://openrouter.ai/api/v1/models"
+    }
+  ]
+}

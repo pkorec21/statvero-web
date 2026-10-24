@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "datasets": {
+    "adoption": {
+      "approved": true,
+      "source": "Eurostat isoc_eb_ai",
+      "termsUrl": "https://ec.europa.eu/eurostat/help/copyright-notice",
+      "releaseReady": true,
+      "reviewedAt": "2026-10-23"
+    },
+    "companies": {
+      "approved": true,
+      "source": "SEC EDGAR company facts",
+      "reason": "Public filings and derived aggregates with attribution.",
+      "termsUrl": "https://www.sec.gov/about/developer-resources",
+      "releaseReady": true,
+      "reviewedAt": "2026-10-23"
+    },
+    "markets": {
+      "approved": false,
+      "source": "Approved market-data snapshots",
+      "reason": "Not included in the public AI-industry scope. No documented redistribution grant for the existing market feed; retained privately.",
+      "releaseReady": false,
+      "reviewedAt": "2026-10-23"
+    },
+    "models": {
+      "approved": true,
+      "source": "OpenRouter public model metadata API",
+      "reason": "Factual catalogue fields retained for the existing preview. Publisher confirmation of redistribution permission is pending; build:release remains blocked. Artificial Analysis benchmarks are excluded.",
+      "termsUrl": "https://openrouter.ai/terms",
+      "rightsNote": "Existing approval covers factual directory fields and listed token prices only. A public API is not an open-data licence; no blanket redistribution licence is claimed.",
+      "releaseReady": false,
+      "reviewedAt": "2026-10-23"
+    },
+    "benchmarks": {
+      "approved": true,
+      "releaseReady": true,
+      "source": "https://epoch.ai/benchmarks/use-this-data",
+      "reviewedAt": "2026-10-23",
+      "reason": "Five explicit Epoch-authored numeric-run files, mean scorer, max reasoning setting, reviewed model identities and evaluation dates. External results, questions and logs excluded. CC BY 4.0 attribution retained."
+    },
+    "world": {
+      "approved": true,
+      "releaseReady": true,
+      "reviewedAt": "2026-10-23",
+      "source": "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS",
+      "reason": "Two reviewed World Bank / UNESCO UIS series explicitly CC BY 4.0; all R&D labels retained. Epoch notable-model counts: full counting, fixed EU27, no national capability score."
+    },
+    "company-economics": {
+      "approved": true,
+      "releaseReady": true,
+      "reviewedAt": "2026-10-23",
+      "source": "https://epoch.ai/data/ai-companies",
+      "reason": "CC BY 4.0 with authors attributed. Reported run rates, ARR, annual period revenue, closed primary/secondary/debt and post-money valuations are separate. Future dates, unclosed commitments, missing dates, product scope and interpolated annual revenue excluded."
+    },
+    "usage-week": {
+      "approved": true,
+      "releaseReady": true,
+      "source": "https://openrouter.ai/rankings",
+      "reviewedAt": "2026-10-23",
+      "reason": "Public weekly model leaderboard explicitly CC BY 4.0. Only usage quantities for its 20 rendered models, not embedded third-party benchmark data. Shares limited to the same top-20 cohort, not full-platform or global share."
+    },
+    "enterprise-adoption": {
+      "approved": true,
+      "releaseReady": true,
+      "reviewedAt": "2026-10-23",
+      "source": "Eurostat isoc_eb_ai",
+      "termsUrl": "https://ec.europa.eu/eurostat/help/copyright-notice",
+      "reason": "Reviewed E_AI_TANY / PC_ENT / NACE C10-S951_X_K, four 10+ enterprise size classes, European survey geography. Actual annual observations and source break flags preserved; no global market-share or implementation-intensity claim."
+    },
+    "occupations": {
+      "approved": true,
+      "releaseReady": true,
+      "reviewedAt": "2026-10-23",
+      "source": "ILO Working Paper 140 / official chart x3jzk v13",
+      "termsUrl": "https://www.ilo.org/sites/default/files/2025-05/WP140_web.pdf",
+      "reason": "ILO-authored task-exposure scores, CC BY 4.0. Adaptation attribution and required non-endorsement notice retained. Published chart contains 427 occupations, not all 436 described by study. No employment weighting or job-loss inference."
+    },
+    "impact-evidence": {
+      "approved": true,
+      "releaseReady": true,
+      "source": "Curated factual summaries: Noy & Zhang; Brynjolfsson et al.; METR; Kestin et al.; Goh et al.; IEA 2026",
+      "reviewedAt": "2026-10-23",
+      "reason": "Limited independently written numeric factual summaries with original citations, observation periods and evidence categories. No source figures, full copyrighted tables, text or raw participant datasets reproduced. Restricted article licences are not described as blanket data-reuse grants. IEA 2026 and Goh et al. carry their source CC BY attribution."
+    }
+  }
+}
