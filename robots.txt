@@ -1,3 +1,4 @@
 User-agent: *
-Allow: /
-Disallow: /studio
+Allow: /statvero-web/
+Disallow: /statvero-web/studio
+Sitemap: https://pkorec21.github.io/statvero-web/sitemap.xml
