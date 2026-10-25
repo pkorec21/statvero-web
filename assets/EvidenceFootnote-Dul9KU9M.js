@@ -1,0 +1,1 @@
+import{l as e,m as t}from"./index-BNTKPCbg.js";/* empty css                         */var n=e();function r({children:e}){return(0,n.jsxs)(`footer`,{className:`evidence-footnote`,children:[e,(0,n.jsx)(`a`,{className:`evidence-definition-link`,href:t(`/sources#research-notes`),children:`Definitions`})]})}export{r as t};
