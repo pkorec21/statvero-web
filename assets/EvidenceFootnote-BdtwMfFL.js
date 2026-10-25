@@ -1,1 +1,0 @@
-import{m as e,u as t}from"./index-BAN9B0VZ.js";/* empty css                         */var n=t();function r({children:t}){return(0,n.jsxs)(`footer`,{className:`evidence-footnote`,children:[t,(0,n.jsx)(`a`,{className:`evidence-definition-link`,href:e(`/sources#research-notes`),children:`Definitions`})]})}export{r as t};
