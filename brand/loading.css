@@ -1,7 +1,7 @@
 /* Available before JavaScript for cold loads, and shared by route/chart placeholders. */
 #boot-loader{min-height:70vh;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:26px;background:#fff;color:#7a8b9c;font:12px/1.5 system-ui,sans-serif}
 #root:not(:empty)~#boot-loader{display:none}
-#boot-loader .boot-brand{display:block;position:relative;overflow:hidden;width:155px;aspect-ratio:1576/384}#boot-loader .boot-brand img{position:absolute;left:-13.198%;top:-57.292%;width:125.825%;height:auto;max-width:none}
+#boot-loader .boot-brand{display:block;position:relative;overflow:hidden;width:155px;aspect-ratio:1470/246}#boot-loader .boot-brand img{position:absolute;left:-18.707%;top:-107.317%;width:134.898%;height:auto;max-width:none}
 .boot-loader-pulse{display:flex;gap:6px;align-items:center;height:14px}
 .boot-loader-pulse i{display:block;width:5px;height:5px;background:#245eea;border-radius:1px;animation:loading-pulse 1.35s ease-in-out infinite}
 .boot-loader-pulse i:nth-child(2){animation-delay:.16s}.boot-loader-pulse i:nth-child(3){animation-delay:.32s}
